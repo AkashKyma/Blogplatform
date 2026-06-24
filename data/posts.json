@@ -1,0 +1,214 @@
+[
+  {
+    "slug": "ship-fast-with-static-content",
+    "title": "Ship Faster with Static Content Systems",
+    "excerpt": "Static content can feel humble, but it creates a publishing pipeline that is fast, dependable, and easy to maintain.",
+    "date": "2026-06-18",
+    "author": "Mina Hart",
+    "category": "Engineering",
+    "tags": ["nextjs", "content", "performance"],
+    "coverImage": "/images/posts/static-content.svg",
+    "featured": true,
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "A good publishing system does not need to start with a database, a queue, and three dashboards. Static content gives small teams a faster path to shipping because the moving parts stay understandable."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Why static works"
+      },
+      {
+        "type": "paragraph",
+        "text": "Pages render quickly, builds stay predictable, and editors can review content alongside the code that controls layout. That reduces drift between design intent and the final page."
+      },
+      {
+        "type": "list",
+        "style": "bullet",
+        "items": [
+          "No external content API required for the first release",
+          "Versioned content changes with a clean review trail",
+          "Easy local development with realistic seed data"
+        ]
+      },
+      {
+        "type": "quote",
+        "text": "Constraints are useful when they remove ceremony instead of creativity."
+      },
+      {
+        "type": "paragraph",
+        "text": "Once a team has real editorial complexity, it can introduce richer tooling deliberately. Until then, static content is often the shortest road to a calm, resilient platform."
+      }
+    ]
+  },
+  {
+    "slug": "designing-reader-friendly-layouts",
+    "title": "Designing Reader-Friendly Layouts",
+    "excerpt": "A blog earns trust with rhythm, contrast, and enough whitespace to let the writing breathe.",
+    "date": "2026-06-12",
+    "author": "Mina Hart",
+    "category": "Design",
+    "tags": ["typography", "ui", "accessibility"],
+    "coverImage": "/images/posts/reader-layouts.svg",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Reader-focused layouts work because they remove friction. When typography is balanced and the page structure is calm, the reader can stay inside the argument instead of negotiating with the interface."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "The fundamentals"
+      },
+      {
+        "type": "list",
+        "style": "number",
+        "items": [
+          "Set a comfortable line length",
+          "Create a clear hierarchy between title, metadata, and body",
+          "Use contrast that remains strong in dark mode"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "The best interface decision is often the one a reader never notices. Clean spacing and predictable patterns make even long essays feel approachable."
+      }
+    ]
+  },
+  {
+    "slug": "building-search-that-feels-instant",
+    "title": "Building Search That Feels Instant",
+    "excerpt": "For a small content set, client-side filtering is often the right trade-off: low complexity, fast feedback, and no infrastructure overhead.",
+    "date": "2026-06-08",
+    "author": "Mina Hart",
+    "category": "Engineering",
+    "tags": ["search", "ux", "frontend"],
+    "coverImage": "/images/posts/instant-search.svg",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Readers expect search to respond as quickly as thought. On a small blog, that means local filtering can outperform heavier systems simply because it avoids every round trip."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "A practical pattern"
+      },
+      {
+        "type": "paragraph",
+        "text": "Load the full post list once, keep the inputs controlled, and derive the filtered view from search text plus category state. The result is simple to reason about and easy to test."
+      },
+      {
+        "type": "quote",
+        "text": "Fast enough, obvious, and maintainable beats clever search architecture for a six-post dataset."
+      },
+      {
+        "type": "paragraph",
+        "text": "If content grows, the interface can stay the same while the implementation changes behind it. That is exactly the kind of future-proofing worth doing."
+      }
+    ]
+  },
+  {
+    "slug": "the-case-for-editorial-discipline",
+    "title": "The Case for Editorial Discipline",
+    "excerpt": "Strong blogs do not only publish often; they publish with a recognizable point of view and a reliable standard.",
+    "date": "2026-06-03",
+    "author": "Mina Hart",
+    "category": "Editorial",
+    "tags": ["writing", "process", "strategy"],
+    "coverImage": "/images/posts/editorial-discipline.svg",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Editorial discipline sounds severe, but it is mostly a commitment to clarity. Readers return when they trust the publication to respect their attention."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "What discipline looks like"
+      },
+      {
+        "type": "list",
+        "style": "bullet",
+        "items": [
+          "A clear promise about what the publication covers",
+          "Consistent formatting and metadata",
+          "An editing pass that trims repetition before publishing"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Discipline is not about sounding formal. It is about making each post legible, intentional, and worth the reader's time."
+      }
+    ]
+  },
+  {
+    "slug": "components-that-age-well",
+    "title": "Components That Age Well",
+    "excerpt": "Reusable UI gets better when it is shaped around stable responsibilities instead of visual coincidence.",
+    "date": "2026-05-29",
+    "author": "Mina Hart",
+    "category": "Engineering",
+    "tags": ["components", "architecture", "frontend"],
+    "coverImage": "/images/posts/components-age-well.svg",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "A resilient component does one job cleanly and accepts the minimum input needed to do it. That keeps design systems flexible when product needs shift."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Three useful habits"
+      },
+      {
+        "type": "list",
+        "style": "number",
+        "items": [
+          "Name components for the role they play",
+          "Keep data shaping close to the page or route",
+          "Let styling scale through composition instead of duplication"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "When component boundaries are clear, new layouts become assembly work instead of surgery."
+      }
+    ]
+  },
+  {
+    "slug": "small-signals-build-community",
+    "title": "Small Signals Build Community",
+    "excerpt": "The tone of a publication is created by many tiny choices: captions, author notes, and how consistently the site feels cared for.",
+    "date": "2026-05-21",
+    "author": "Mina Hart",
+    "category": "Editorial",
+    "tags": ["community", "brand", "writing"],
+    "coverImage": "/images/posts/community-signals.svg",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Community does not appear because a site adds comments. It emerges when readers sense a steady human voice, a point of view, and a publication that keeps showing up."
+      },
+      {
+        "type": "heading",
+        "level": 2,
+        "text": "Signals that matter"
+      },
+      {
+        "type": "list",
+        "style": "bullet",
+        "items": [
+          "Warm, specific copy instead of generic prompts",
+          "Intentional metadata and categories that help discovery",
+          "A site that loads quickly and feels calm to use"
+        ]
+      },
+      {
+        "type": "paragraph",
+        "text": "Tiny signs of care accumulate. Over time they tell readers that this is a place worth returning to."
+      }
+    ]
+  }
+]
